@@ -1,0 +1,69 @@
+CollectionItems :{
+    id,
+    name,
+    category,
+    price
+}
+
+ex : 
+    collections : [
+        {'id': '100',
+        name: 'Maybelline Lipstick',
+        category: 'Cosmetics',
+        price: '400'},
+
+        {'id': '101',
+        name: 'Eno',
+       category: 'Medicince',
+        price: '40'}
+
+   ] 
+
+
+OrderInfo:{
+    id, 
+    itemId, => Dropdown
+    consumerId,=>Dropdown
+    quantity,
+    orderDate => Current Date time
+}
+
+ex: 
+orders: [
+    {
+    id: 100, 
+    itemId: 100, 
+    consumerId:100, 
+    quantity: 1
+    orderDate: 20th Oct , 2020
+    },
+ {
+    id: 100, 
+    itemId: 101, 
+    consumerId:100, 
+    quantity: 3
+    orderDate: 20th Oct , 2020
+}]
+
+ConsumerList:{
+    id, 
+    Name,
+    address,
+    email, 
+    phoneNumber
+}
+
+ex:
+    consumer: [{
+        id: 100, 
+        name: 'Sonal', 
+        email: 'Test@gmail.com',
+        phoneNumber: '12345'
+    }, 
+    {
+        id: 101, 
+        name: 'Sejak', 
+        email: 'Test2@gmail.com',
+        phoneNumber: '9812345'
+    }
+    ]

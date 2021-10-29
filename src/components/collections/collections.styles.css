@@ -1,0 +1,10 @@
+.collection-item-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 25% 100px auto;
+
+  gap: 1rem;
+}
+.collection-item {
+  grid-column-start: 2;
+}
